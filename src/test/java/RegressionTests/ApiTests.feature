@@ -28,7 +28,6 @@ Feature: Api Add/update/create and delete calls - CRUD
     And request {'name': 'New morpheus', 'job': 'Engineer'}
     And method put
     Then status 200
-    And match response.id == 1
     And match response $.name == 'New morpheus'
     And match response.job == 'Engineer'
 

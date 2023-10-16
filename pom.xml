@@ -28,31 +28,29 @@
   </build>
 
   <dependencies>
+
+    <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-core -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
+      <groupId>com.intuit.karate</groupId>
+      <artifactId>karate-core</artifactId>
+      <version>1.4.0.RC3</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-compiler-plugin</artifactId>
-      <version>3.10.1</version>
-    </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-junit4 -->
     <dependency>
       <groupId>com.intuit.karate</groupId>
       <artifactId>karate-junit4</artifactId>
-      <version>1.1.0</version>
+      <version>1.4.0.RC3</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
+      <groupId>net.masterthought</groupId>
+      <artifactId>cucumber-reporting</artifactId>
+      <version>5.7.6</version>
       <scope>test</scope>
     </dependency>
+
   </dependencies>
 </project>
